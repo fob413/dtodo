@@ -19,5 +19,6 @@ from django.conf.urls import url, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # the url
     url(r'^', include('todoapi.urls')),
 ]
